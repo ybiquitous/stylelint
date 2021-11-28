@@ -53,3 +53,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: ./.coverage/lcov.info
+        env:
+          COVERALLS_DEBUG: 1
+          NODE_COVERALLS_DEBUG: 1
