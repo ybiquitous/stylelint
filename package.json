@@ -96,6 +96,10 @@
       "stylelint/lib/utils/getOsEol": "<rootDir>/lib/utils/getOsEol.js"
     },
     "preset": "jest-preset-stylelint",
+    "reporters": [
+      "default",
+      "github-actions"
+    ],
     "roots": [
       "lib",
       "system-tests"
